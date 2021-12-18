@@ -10,5 +10,7 @@ With the development of Deep learning and transformer, Question and Answer(QA) t
 We run all of our codes on python3.8 with pytorch 1.9. In addition, you should also install packages such as pandas, numpy, sklearn, transformer, tqdm.
 
 ## How to run each codes
-### for baseline codes:
+For all data, we have processed them and save them into a google drive: https://drive.google.com/file/d/1vCLY72Vc0UIWPLHSM6hyghQ6BuQylXKR/view?usp=sharing
+
+For each model training, you can directly run it if you install all required packages. It will require a relatively long time. For different experiments, we just change some parameters inside it. For the inference, you should put all checkpoint files together and change the path in the inference file and then you can run it.
 
